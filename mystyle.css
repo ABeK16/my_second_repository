@@ -1,0 +1,74 @@
+/* Reset some default styling */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  /* Basic styling */
+  header {
+    text-align: center;
+    background-color: #5b75dc;
+    color: white;
+    padding: 20px;
+  }
+  nav {
+    background-color: #555;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  section {
+    padding: 20px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  body {
+    margin: 50;
+    padding: 50 ;
+  }
+  h1 {
+    margin: 50;
+    padding: 50;
+  }
+  h1 {
+    margin: 50;
+    padding: 50;
+  }
+  /* Media Queries for mobile responsiveness */
+  @media screen and (max-width: 600px) {
+    header, nav, section, footer {
+        padding: 10px;
+    }
+  }
+  /* Flexbox layout for projects in the portfolio section */
+  #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* CSS Variables */
+  :root {
+    --main-color: #3498db;
+  }
+  header {
+    background-color: var(--main-color);
+  }
+  nav {
+    background-color: var(--main-color);
+  }
+  footer {
+    background-color: var(--main-color);
+  }
+  
