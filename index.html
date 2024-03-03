@@ -17,13 +17,21 @@
   }
   </style>
 </head>
-<body>
+<body>1
   <header>
     <h1>Abraham King Says 👋 </h1>
+    
     <p>
-      Hello My name is <p style="color:blue;"><strong> Abraham King</strong></p> <p style="color:black;">aka <i> King-of-the-North</i> </p>
+      Hello My name is <p style="color:blue;"><strong> Abraham King</strong></p> 
+     
+      <img src="DSC_4649.JPEG" width="243" height="368" float:left alt="Bio Image-Abraham King" >
+      <p class="nickname" style="color:black;">aka <i> King-of-the-North</i> </p>
       </p>
-    <p>  Hello Welcome   </p>
+      <br>
+      <br>
+      <br>
+      <br>
+    <p class="pulsing">  Hello Welcome   </p>
     <p>Web Developer: Git = ABeK16</p>
   </header>
   <nav>
@@ -35,54 +43,76 @@
     </ul>
   </nav>
   <section id="about">
-    <h2>About Me</h2>
-      <img src="DSC_4649.JPEG" width="200" height="200" float:left alt="Bio Image-Abraham King">
-    <p>This is a bio page about me Abraham King AKA King of the North, I'm learning how to Code and I also enjoy snowboarding
-      <a href="https://www.linkedin.com/in/abragit ham-king-b-eng-e-i-t-81117295/">My LinkedIn</a> </p>
+    <h2 style=text-align:center>About Me</h2>
+      
+    <p>This is a bio page about me Abraham King AKA King of the North, I'm learning how to Code and I also enjoy snowboarding- 
+
+      <a href="https://www.linkedin.com/in/abragit ham-king-b-eng-e-i-t-81117295/"> My LinkedIn </a> </p>
         <p>
           I've coined that nickname because of my experience in Northern Ontario
-          <br> 
-          <strong>My background is in mechanical engineering .</strong>
+          <br> <strong>My background is in mechanical engineering .</strong>
         </p>
         <p>
-          One of my best qualities would be my
-          <strong>resourcefulness
-          </strong>.
+          One of my best qualities would be my <strong> resourcefulness </strong>.
         </p>
         <p>
          Adept at problem solving and using Computuer Aided Designing software
         </p>
-        <p>
-          Chaning this to update for a final itteration branch
-          
-         </p>
+        
   </section>
-  <div class="Portfolio">
-    <h2 style="color: white; text-align: center;">Portfolio</h2>
-    <!-- My projects  here -->
-    <br>
-    <h3 style="color: white;"> Console Finances</h3>
+  <!-- My projects  here -->
+    <div id="portfolio" class="portfolio-container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-entry">
+        <h3>Console Finances</h3>
+        <p><a href="https://abek16.github.io/Console-Finances/">Console-Finances</a></p>
+        <!-- Add an image source for Console Finances -->
+        <img src="console-finances-image.jpg" alt="Console Finances Image">
+      </div>
     
-    <p></p><a style="color: white;"href="https://abek16.github.io/Console-Finances/"> Console-Finances </a></p>
+      <div class="portfolio-entry">
+        <h3>Marketing Agency</h3>
+        <p><a href="https://mapledigitalm.com">Maple Digital Marketing MDM</a></p>
+        <!-- Add an image source for Marketing Agency -->
+        <img src="marketing-agency-image.jpg" alt="Marketing Agency Image">
+      </div>
     
-    <h3 style="color: white;"> Marketing Agency</h3>
-    
-    <p><a style="color: white;" href="https://mapledigitalm.com"> Maple Digital Marketing MDM </a></p>
-  </div>
-  <section id="contact">
-    <h2> <u> <strong> Contact </strong> </u> </h2>
-    <ul>
-      <li><strong>Email:</strong> <a href="#">adekingabraham@gmail.com</a></li>
-      <li><strong>Github:</strong> <a href="#">ABeK16</a></li>
-      <li><strong>Portfolio:</strong> <a href="#">https://github.com/ABeK16/</a></li>
-    </ul>
+      <!-- Add space for a new portfolio entry -->
+      <div class="portfolio-entry">
+        <h3>New Portfolio Entry</h3>
+        <p><a href="#">New Portfolio Entry Link</a></p>
+        <!-- Add an image source for the new portfolio entry -->
+        <img src="new-portfolio-entry-image.jpg" alt="New Portfolio Entry Image">
+      </div>
+    </div>
+    <section id="contact" style="display: flex; flex-direction: column; align-items: center;">
+      <h2 style="text-align: center;"> <u> <strong> Contact </strong> </u> </h2>
+      <ul style="list-style-type: none; padding: 0; text-align: left;">
+        <li style="margin-bottom: 10px;"><strong>Email:</strong> <a href="#">adekingabraham@gmail.com</a></li>
+        <li style="margin-bottom: 10px;"><strong>Github:</strong> <a href="#">https://github.com/ABeK16</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">https://abek16.github.io/my_second_repository/</a></li>
+      </ul>
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
 <script>
 VANTA.WAVES("div")
+({
+  el: "div",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  shininess: 114.00,
+  waveHeight: 37.50,
+  waveSpeed: 0.70,
+  zoom: 1.18
+})
 </script>
-s
+
   <footer>
     <p>&copy; 2024 Abraham King</p>
   </footer>    
